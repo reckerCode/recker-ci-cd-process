@@ -18,3 +18,7 @@ script:
 
 after_success:
   - bash <(curl -s https://codecov.io/bash)
+
+env:
+  - DOCKER_PASSWORD = 123reckerhardikgunjal456@@
+  - DOCKER_USERNAME = hardik.gunjal@fullstacklabs.ca
